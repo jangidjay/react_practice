@@ -19,8 +19,8 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyClT9H6iSQ98oHYVll9VbyqRLEYnRNAAvA",
-  authDomain: "signup-practice-1b8d0.firebaseapp.com",
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
   projectId: "signup-practice-1b8d0",
   storageBucket: "signup-practice-1b8d0.appspot.com",
   messagingSenderId: "418445975106",
